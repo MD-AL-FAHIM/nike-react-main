@@ -14,3 +14,13 @@
 .banner{
     margin-bottom: 80px;
 }
+
+@media only screen and (max-width: 600px) {
+    .reverse-derection{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    footer{
+        margin-bottom: 0;
+    }
+  }
